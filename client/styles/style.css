@@ -1,0 +1,24 @@
+* {
+  box-size: border-box;
+}
+body {
+  padding: 20px;
+}
+label {
+  display: block;
+}
+.peer {
+  display: inline-block;
+}
+video {
+  border: 1px solid #000;
+}
+textarea {
+  display: block;
+}
+output {
+  display: block;
+}
+#share-url {
+  display: none;
+}
