@@ -1,6 +1,6 @@
 # WebRTC demo
 
-In this demo we connect to a peer using [RTCPeerConnection](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection) and share a media stream accessed via [https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia](getUserMedia). We can also send arbriary data to the peer using [RTCDataChannel](https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel). In order to keep track and send the [ICECandidate](https://developer.mozilla.org/en-US/docs/Web/Events/icecandidate)s to the peers, we have a simple [Node.js](http://nodejs.org/) server set up with [socket.io](http://socket.io/) as the signaling mechanism between the peer connections.
+In this demo we connect to a peer using [RTCPeerConnection](https://developer.mozilla.org/en-US/docs/Web/API/RTCPeerConnection) and share a media stream accessed via [getUserMedia](https://developer.mozilla.org/en-US/docs/NavigatorUserMedia.getUserMedia). We can also send arbriary data to the peer using the [RTCDataChannel](https://developer.mozilla.org/en-US/docs/Web/API/RTCDataChannel). We have a simple [Node.js](http://nodejs.org/) server set up with [socket.io](http://socket.io/) as the signaling mechanism between the peer connections to exchange [ICECandidate](https://developer.mozilla.org/en-US/docs/Web/Events/icecandidate) information in order to be able to do the inital connection.
 
 # Demo
 
