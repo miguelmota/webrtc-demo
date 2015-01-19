@@ -18,7 +18,7 @@ socket.on('connect', function() {
 // wrapper for sending data over socket.io
 function send (room, key, data) {
   console.log('send:', type, key, data);
-  socket.emit(type, {room: room, key: key, data: data});
+  socket.emit('message', {type: type, room: room, key: key, data: data});
 }
 // wrapper to receive data from socket.io
 function recv (room, type, cb) {
