@@ -4,7 +4,7 @@ In this demo we connect to a peer using [RTCPeerConnection](https://developer.mo
 
 # Demo
 
-[http://lab.moogs.io/webrtc-demo](http://lab.moogs.io/webrtc-demo)
+[https://lab.miguelmota.com/webrtc-demo](https://lab.miguelmota.com/webrtc-demo)
 
 # Usage
 
