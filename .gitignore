@@ -101,3 +101,5 @@ server/uploads/*.png
 #######################
 .VimballRecord
 .netrwhist
+
+node_modules
