@@ -26,7 +26,7 @@
   "homepage": "https://github.com/miguelmota/webrtc-demo",
   "dependencies": {
     "express": "^4.11.0",
-    "socket.io": "^1.2.1",
+    "socket.io": "^1.7.4",
     "tape": "^3.0.3"
   }
 }

@@ -222,7 +222,7 @@ function connect() {
   sendButton.onclick = function() {
     console.log('send button clicked.');
     // can only send data once it's open
-    if (channel.readyState === 'open') {
+    if (channel && channel.readyState === 'open') {
       var value = textarea.value;
       console.log('data to send:', value);
       // String, Blob, ArrayBuffer or ArrayBufferView, so be sure to stringify objects.
